@@ -4,7 +4,7 @@
   command = "cd client && npm run build"
 
   # Specifies the directory to deploy the app from
-  publish = "/client/build"
+  publish = "client/build"
 
 [[redirects]]
   # Redirects all URLs to the index.html file
