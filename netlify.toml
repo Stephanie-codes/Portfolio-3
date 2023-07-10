@@ -4,10 +4,10 @@
   command = "npm run build --prefix client"
 
   # Specifies the directory to deploy the app from
-  publish = "client/build"
+  publish = "/client/build"
 
 [[redirects]]
   # Redirects all URLs to the index.html file
-  from = "/client/*"
+  from = "/*"
   to = "/client/public/index.html"
   status = 200
