@@ -8,6 +8,6 @@
 
 [[redirects]]
   # Redirects all URLs to the index.html file
-  from = "/*"
+  from = "/client/*"
   to = "/client/public/index.html"
   status = 200
