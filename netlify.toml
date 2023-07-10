@@ -6,6 +6,8 @@
   # Specifies the directory to deploy the app from
   publish = "client/build"
 
+  base = "client"
+  
 [[redirects]]
   # Redirects all URLs to the index.html file
   from = "/*"
