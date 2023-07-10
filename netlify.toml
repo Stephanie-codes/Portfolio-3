@@ -9,5 +9,5 @@
 [[redirects]]
   # Redirects all URLs to the index.html file
   from = "/*"
-  to = "/public/index.html"
+  to = "/client/public/index.html"
   status = 200
