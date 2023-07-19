@@ -17,7 +17,7 @@ export default function Contact() {
       message
     };
 
-    fetch('/Contact', {
+    fetch(process.env.REACT_APP_SERVER_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
