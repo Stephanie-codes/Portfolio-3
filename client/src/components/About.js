@@ -1,10 +1,16 @@
 import React from "react";
+import hellopic from "../images/hello.png";
+import stephparis from "../images/stephparis.jpeg";
+import about from "../images/about.jpeg";
 
 export default function About() {
   return (
     <main id="about">
-      <h2>Hi! My name is Stephanie Burlinchon.</h2>
-      <br />
+      <div class="about-image-container">
+      <img src={hellopic} alt='hello' className="hellopic"/>
+      <img src={stephparis} alt='stephparis' className="stephparis"/>
+      </div>
+      <img src={about} alt='about' className="about"/>
       <p>
       A self-taught Software Engineer, passionate about building dynamic and engaging web experiences. 
       My skills include HTML, CSS, JavaScript, and the ReactJS Framework.

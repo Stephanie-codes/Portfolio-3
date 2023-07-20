@@ -197,7 +197,7 @@ main#about {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5rem;
-  background-color: white;
+  background-color: #FFE2D3;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25),
@@ -210,8 +210,66 @@ main#about {
   main#about {
     margin-top: 2rem;
     margin-left: 5rem;
-    width: 70%;
+    width: 69.5%;
     margin-bottom: 1rem;
+  }
+}
+
+.about-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hellopic {
+  width: 22rem;
+  height: 22rem;
+  border-radius: 5%;
+  overflow: hidden;
+  margin-right: 2rem;
+  }
+
+@media (max-width: 768px) {
+  .hellopic {
+    width: 130%;
+    height: auto;
+    max-width: 100%; 
+    margin-left: 2rem;
+  }
+}
+
+.stephparis {
+  width: 18rem;
+  height: auto;
+  border-radius: 5%;
+  overflow: hidden;
+  margin-left: 2rem;
+  }
+
+@media (max-width: 768px) {
+  .stephparis {
+    width: 130%;
+    height: auto;
+    max-width: 100%; 
+    margin-left: 2rem;
+  }
+}
+
+.about {
+  width: 25rem;
+  height: auto;
+  border-radius: 5%;
+  overflow: hidden;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  }
+
+@media (max-width: 768px) {
+  .about {
+    width: 80%;
+    height: auto;
+    max-width: 100%; 
+    margin-left: 1rem;
+    transform: scale(0.8);
   }
 }
 
