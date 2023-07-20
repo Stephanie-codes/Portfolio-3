@@ -91,7 +91,8 @@ main#home {
     width: 80%;
     height: auto;
     max-width: 100%; 
-    margin-left: 1rem;
+    margin-left: 2rem;
+    transform: scale(0.8);
   }
 }
 
@@ -137,8 +138,9 @@ h3 {
 
 @media screen and (max-width: 767px) {
   .stack {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
+    transform: scale(0.7);
   }
 }
 
@@ -154,7 +156,7 @@ h3 {
     width: 30px;
     height: 30px;
     margin: 5px;
-    padding-left: 30px;
+    padding-left: 10px;
   }
 }
 

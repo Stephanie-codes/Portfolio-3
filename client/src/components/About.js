@@ -6,7 +6,7 @@ export default function About() {
       <h2>Hi! My name is Stephanie Burlinchon.</h2>
       <br />
       <p>
-      A self-taught Web Developer, passionate about building dynamic and engaging web experiences. 
+      A self-taught Software Engineer, passionate about building dynamic and engaging web experiences. 
       My skills include HTML, CSS, JavaScript, and the ReactJS Framework.
       </p>
       <p>

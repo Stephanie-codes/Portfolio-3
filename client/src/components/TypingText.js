@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function TypingText() {
   const [index, setIndex] = useState(0);
-  const text = "Web Developer";
+  const text = "Software Engineer";
 
   useEffect(() => {
     const intervalId = setInterval(() => {
