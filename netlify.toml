@@ -2,6 +2,8 @@
 
   command = "cd client && npm install && npm run build"
 
+  functions = "functions"
+
   publish = "client/build"
   
 [[redirects]]

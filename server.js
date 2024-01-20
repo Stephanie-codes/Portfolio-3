@@ -4,11 +4,12 @@ const nodemailer = require('nodemailer');
 const cors = require('cors');
 const PORT = process.env.PORT || 8080;
 const path = require('path');
-
+const serverless = require('serverless-http');
 
 // Middleware
 app.use(cors());
 //app.use(cors({ origin: 'https://incandescent-semifreddo-cadc54.netlify.app' }));
+//app.use(cors())
 app.use(express.json({ limit: "25mb"}));
 app.use(express.urlencoded({ limit: "25mb" }));
 app.use((req, res, next) => {
@@ -53,6 +54,9 @@ app.post('/Contact', (req, res) => {
     res.send('error');
   }
 });
+
+app.use('/.Portfolio-3/server', router)
+module.exports.handler = serverless(app);
 
 app.listen(PORT, () => {
   console.log(`Server running on Port: ${PORT}`);
