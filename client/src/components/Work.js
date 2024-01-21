@@ -6,6 +6,7 @@ import project4Img from "../images/wordsearch.jpeg";
 import project5Img from "../images/portfoliogif.gif";
 import project6Img from "../images/weatherapp.jpg";
 import project7Img from "../images/healthyrecipes.jpg";
+import project8Img from "../images/socialmedia.jpg";
 
 const projects = [
   {
@@ -56,8 +57,14 @@ const projects = [
       description: "HTML, CSS, JavaScript",
       link: "https://cool-profiterole-fea653.netlify.app",
       gitlink: "https://github.com/Stephanie-codes/Healthy-Recipes.git"
+    },
+    {
+      name: "Social Media App",
+      imageSrc: project8Img,
+      description: "React",
+      link: "https://bucolic-kataifi-43220f.netlify.app",
+      gitlink: "https://github.com/Stephanie-codes/React-Social-Media.git"
     }
-
 ];
 
 export default function Work() {
